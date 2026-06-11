@@ -20,7 +20,7 @@ namespace ClipMain.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql(
-                "Host=localhost;Port=5432;Database=phone_verification;Username=postgres;Password=Bfhbfhbrb&454"
+                "Host=localhost;Port=5432;Database=clip_main;Username=postgres;Password=myPassword"
                 );
         }
 
@@ -29,7 +29,7 @@ namespace ClipMain.Data
             var sizes = new List<Sizes>();
 
             using (var connection = new NpgsqlConnection(
-                "Host=localhost;Port=5432;Database=phone_verification;Username=postgres;Password=Bfhbfhbrb&454"))
+                "Host=localhost;Port=5432;Database=clip_main;Username=postgres;Password=myPassword"))
             {
                 connection.Open();
 
