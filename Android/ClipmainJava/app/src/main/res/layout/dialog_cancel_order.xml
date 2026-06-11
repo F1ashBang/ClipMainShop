@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Причина отмены заказа"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupReasons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioWrongItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Заказал не тот товар"
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioWrongAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Неверно указал адрес"
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioChangedMind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Передумал"
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioFoundCheaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Нашёл дешевле"
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioDeliveryTooLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Слишком долгая доставка"
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Другая причина"
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextOtherReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Напишите причину..."
+        android:visibility="gone"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

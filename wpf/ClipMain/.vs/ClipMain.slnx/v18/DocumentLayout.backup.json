@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\golub\\source\\repos\\ClipMain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|c:\\users\\golub\\source\\repos\\clipmain\\clipmain\\productaddoreditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\productaddoreditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\viewmodels\\sizeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\viewmodels\\sizeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\models\\orderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\models\\orderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\models\\sizes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\models\\sizes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\productaddoreditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\productaddoreditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\adminloginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\adminloginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\adminloginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\adminloginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|C:\\Users\\golub\\source\\repos\\ClipMain\\clipmain\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FFE1FE5E-F0F0-4DD5-B701-40B11FDF10C5}|ClipMain\\ClipMain.csproj|solutionrelative:clipmain\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\OrderItemModel.cs",
+              "RelativeDocumentMoniker": "ClipMain\\Models\\OrderItemModel.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\OrderItemModel.cs",
+              "RelativeToolTip": "ClipMain\\Models\\OrderItemModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T10:51:12.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "ClipMain\\Models\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\OrderModel.cs",
+              "RelativeToolTip": "ClipMain\\Models\\OrderModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T09:48:07.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sizes.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\Sizes.cs",
+              "RelativeDocumentMoniker": "ClipMain\\Models\\Sizes.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\Sizes.cs",
+              "RelativeToolTip": "ClipMain\\Models\\Sizes.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T09:03:10.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SizeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\ViewModels\\SizeViewModel.cs",
+              "RelativeDocumentMoniker": "ClipMain\\ViewModels\\SizeViewModel.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\ViewModels\\SizeViewModel.cs",
+              "RelativeToolTip": "ClipMain\\ViewModels\\SizeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T08:57:42.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminLoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\AdminLoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClipMain\\AdminLoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\AdminLoginWindow.xaml.cs",
+              "RelativeToolTip": "ClipMain\\AdminLoginWindow.xaml.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAiwJkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T10:58:41.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminLoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\AdminLoginWindow.xaml",
+              "RelativeDocumentMoniker": "ClipMain\\AdminLoginWindow.xaml",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\AdminLoginWindow.xaml",
+              "RelativeToolTip": "ClipMain\\AdminLoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T14:25:45.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ClipMain\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\App.xaml.cs",
+              "RelativeToolTip": "ClipMain\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:16:57.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\App.xaml",
+              "RelativeDocumentMoniker": "ClipMain\\App.xaml",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\App.xaml",
+              "RelativeToolTip": "ClipMain\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T14:16:52.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ClipMain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\User.cs",
+              "RelativeToolTip": "ClipMain\\Models\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:16:24.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductAddOrEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\ProductAddOrEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClipMain\\ProductAddOrEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\ProductAddOrEditWindow.xaml.cs",
+              "RelativeToolTip": "ClipMain\\ProductAddOrEditWindow.xaml.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAJUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:16:50.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductAddOrEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\ProductAddOrEditWindow.xaml",
+              "RelativeDocumentMoniker": "ClipMain\\ProductAddOrEditWindow.xaml",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\ProductAddOrEditWindow.xaml",
+              "RelativeToolTip": "ClipMain\\ProductAddOrEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-15T12:16:11.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\VIewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "ClipMain\\VIewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\VIewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "ClipMain\\VIewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:40:30.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ClipMain\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ClipMain\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwB8AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:36:41.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "ClipMain\\Models\\Image.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\Image.cs",
+              "RelativeToolTip": "ClipMain\\Models\\Image.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:26:23.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ClipMain\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\Models\\Product.cs",
+              "RelativeToolTip": "ClipMain\\Models\\Product.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:22:08.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ClipMain\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\MainWindow.xaml",
+              "RelativeToolTip": "ClipMain\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-15T09:16:15.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClipMain\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\golub\\source\\repos\\ClipMain\\ClipMain\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ClipMain\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwIcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:16:14.601Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

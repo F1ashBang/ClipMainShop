@@ -1,0 +1,209 @@
+<mxfile host="Electron" agent="draw.io">
+  <diagram name="ClipMain Architecture" id="architecture">
+    <mxGraphModel dx="896" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="android_group" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=14;fontStyle=1;fontColor=#ffffff;startSize=40;rounded=1;shadow=1;" value="Android-клиент приложение(Java + Retrofit + Glide)" vertex="1">
+          <mxGeometry height="580" width="720" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ui_layer" parent="android_group" style="swimlane;whiteSpace=wrap;html=1;fontSize=12;fontStyle=1;startSize=30;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Показываемые Слои UI(Activities / Fragments)" vertex="1">
+          <mxGeometry height="170" width="680" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="act_main" parent="ui_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="MainActivity&#xa;(Вход / Регистрация)" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_code" parent="ui_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="CodeActivity&#xa;(Код подтверждения)" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_shop" parent="ui_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="MainShopActivity&#xa;(Витрина + Поиск)" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_item" parent="ui_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="ItemViewActivity&#xa;(Детали товара)" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="act_cart" parent="ui_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="CartActivity&#xa;(Корзина)" vertex="1">
+          <mxGeometry height="50" width="120" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="act_checkout" parent="ui_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="CheckoutActivity&#xa;(Оформление)" vertex="1">
+          <mxGeometry height="50" width="120" x="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="act_profile" parent="ui_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="ProfileActivity&#xa;(Профиль + Заказы)" vertex="1">
+          <mxGeometry height="50" width="120" x="300" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="act_order_detail" parent="ui_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="OrderDetailActivity&#xa;(Детали заказа)" vertex="1">
+          <mxGeometry height="50" width="120" x="440" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="business_layer" parent="android_group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=12;fontStyle=1;fontColor=#ffffff;startSize=30;rounded=1;" value="Бизнес прослойка (Managers / Session)" vertex="1">
+          <mxGeometry height="100" width="680" x="20" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cart_manager" parent="business_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="CartManager&#xa;(Singleton)&#xa;add/remove/quantity" vertex="1">
+          <mxGeometry height="50" width="140" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cart_storage" parent="business_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="CartStorage&#xa;(Interface)&#xa;save/load/clear" vertex="1">
+          <mxGeometry height="50" width="140" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="local_storage" parent="business_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="LocalCartStorage&#xa;(SharedPreferences)" vertex="1">
+          <mxGeometry height="50" width="140" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="user_session" parent="business_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="UserSession&#xa;(Singleton)&#xa;userId / phone / isLoggedIn" vertex="1">
+          <mxGeometry height="50" width="150" x="500" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="data_layer" parent="android_group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=12;fontStyle=1;fontColor=#ffffff;startSize=30;rounded=1;" value="Слой с передачей данных (Retrofit / API)" vertex="1">
+          <mxGeometry height="120" width="680" x="20" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="api_client" parent="data_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="ApiClient&#xa;(Retrofit Builder)&#xa;BASE_URL + Gson" vertex="1">
+          <mxGeometry height="60" width="140" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="api_service" parent="data_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="ApiService&#xa;(Interface)&#xa;endpoints" vertex="1">
+          <mxGeometry height="60" width="140" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="models" parent="data_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="Models&#xa;ProductModel, CartItem,&#xa;OrderModel, ImageModel…" vertex="1">
+          <mxGeometry height="60" width="160" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="adapters" parent="data_layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;shadow=1;" value="Adapters&#xa;ProductAdapter, CartAdapter,&#xa;OrderAdapter, ImagePagerAdapter…" vertex="1">
+          <mxGeometry height="60" width="160" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_bar" parent="android_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontSize=11;fontColor=#ffffff;fontStyle=1;shadow=1;" value="Нижняя навигация" vertex="1">
+          <mxGeometry height="45" width="260" x="230" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="server_group" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=14;fontStyle=1;fontColor=#ffffff;startSize=40;rounded=1;shadow=1;" value="Spring Boot Server (Java 17 + PostgreSQL)" vertex="1">
+          <mxGeometry height="580" width="870" x="800" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="controllers" parent="server_group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=12;fontStyle=1;fontColor=#ffffff;startSize=30;rounded=1;" value="Контроллеры (REST API)" vertex="1">
+          <mxGeometry height="130" width="830" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_phone" parent="controllers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="PhoneController&#xa;/register | /login | /verify&#xa;/admin/login | /admin/users" vertex="1">
+          <mxGeometry height="70" width="155" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_product" parent="controllers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="ProductController&#xa;/products | /products/{id}&#xa;/products/search" vertex="1">
+          <mxGeometry height="70" width="150" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_order" parent="controllers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="OrderController&#xa;/orders | /orders/{id}&#xa;/orders/user/{userId}" vertex="1">
+          <mxGeometry height="70" width="155" x="345" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_image" parent="controllers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="ImageController&#xa;/images/{fileName}&#xa;/upload" vertex="1">
+          <mxGeometry height="70" width="140" x="515" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="services" parent="server_group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=12;fontStyle=1;fontColor=#ffffff;startSize=30;rounded=1;" value="Сервисы / Репозитории" vertex="1">
+          <mxGeometry height="100" width="720" x="20" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jpa_repos" parent="services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="JPA Repositories&#xa;UserRepository | ProductRepository&#xa;OrderRepository | CartItemRepository&#xa;ImageRepository" vertex="1">
+          <mxGeometry height="50" width="300" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="business_logic" parent="services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="Business Logic&#xa;Генерация кода, проверка isAdmin,&#xa;расчёт суммы заказа" vertex="1">
+          <mxGeometry height="50" width="200" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="file_storage" parent="services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="File Storage&#xa;C:/uploads/&#xa;(фото товаров)" vertex="1">
+          <mxGeometry height="50" width="140" x="560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="entities" parent="server_group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=12;fontStyle=1;fontColor=#ffffff;startSize=30;rounded=1;" value="Модели (JPA)" vertex="1">
+          <mxGeometry height="100" width="720" x="20" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_user" parent="entities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="User" vertex="1">
+          <mxGeometry height="50" width="100" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_product" parent="entities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="Product" vertex="1">
+          <mxGeometry height="50" width="100" x="135" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_image" parent="entities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="Image" vertex="1">
+          <mxGeometry height="50" width="100" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_order" parent="entities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="OrderModel" vertex="1">
+          <mxGeometry height="50" width="100" x="365" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_orderitem" parent="entities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="OrderItem" vertex="1">
+          <mxGeometry height="50" width="100" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_cartitem" parent="entities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="CartItem" vertex="1">
+          <mxGeometry height="50" width="100" x="595" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="db" parent="server_group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;fontStyle=1;fontColor=#ffffff;startSize=30;rounded=1;" value="База данных PostgreSQL" vertex="1">
+          <mxGeometry height="100" width="720" x="20" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_users" parent="db" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=10;fontColor=#ffffff;shadow=1;" value="users" vertex="1">
+          <mxGeometry height="50" width="100" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_products" parent="db" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=10;fontColor=#ffffff;shadow=1;" value="products" vertex="1">
+          <mxGeometry height="50" width="100" x="135" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_images" parent="db" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=10;fontColor=#ffffff;shadow=1;" value="images" vertex="1">
+          <mxGeometry height="50" width="100" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_orders" parent="db" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=10;fontColor=#ffffff;shadow=1;" value="orders" vertex="1">
+          <mxGeometry height="50" width="100" x="365" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_order_items" parent="db" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=10;fontColor=#ffffff;shadow=1;" value="order_items" vertex="1">
+          <mxGeometry height="50" width="100" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl_cart_items" parent="db" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontSize=10;fontColor=#ffffff;shadow=1;" value="cart_items" vertex="1">
+          <mxGeometry height="50" width="100" x="595" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wpf_group" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;fontSize=14;fontStyle=1;startSize=40;rounded=1;shadow=1;gradientColor=#ffa500;" value="WPF Admin Panel (.NET Framework 4.8)" vertex="1">
+          <mxGeometry height="200" width="760" x="800" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="wpf_windows" parent="wpf_group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;fontStyle=1;startSize=30;rounded=1;fontColor=#000000;" value="Окна" vertex="1">
+          <mxGeometry height="130" width="350" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpf_login" parent="wpf_windows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=10;fontColor=#000000;shadow=1;" value="AdminLoginWindow&#xa;(Вход по номеру)" vertex="1">
+          <mxGeometry height="50" width="140" x="15" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wpf_main" parent="wpf_windows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=10;fontColor=#000000;shadow=1;" value="MainWindow&#xa;(Товары | Пользователи | Заказы)" vertex="1">
+          <mxGeometry height="50" width="155" x="175" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wpf_data" parent="wpf_group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;fontStyle=1;fontColor=#000000;startSize=30;rounded=1;" value="Данные" vertex="1">
+          <mxGeometry height="130" width="340" x="390" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpf_models" parent="wpf_data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=10;fontColor=#000000;shadow=1;" value="Models&#xa;UserModel, ProductModel,&#xa;OrderModel…" vertex="1">
+          <mxGeometry height="55" width="140" x="15" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wpf_http" parent="wpf_data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=10;fontColor=#000000;shadow=1;" value="HttpClient&#xa;+ API Key" vertex="1">
+          <mxGeometry height="55" width="140" x="175" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_http" edge="1" parent="1" source="api_service" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF5722;strokeWidth=2;fontSize=11;fontColor=#BF360C;fontStyle=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="controllers" value="&lt;span&gt;HTTP (REST API)&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.1159" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="380" y="460" />
+              <mxPoint x="600" y="460" />
+              <mxPoint x="600" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow_wpf_http" edge="1" parent="1" source="wpf_main" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF5722;strokeWidth=2;fontSize=11;fontColor=#BF360C;fontStyle=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ctrl_phone" value="HTTP + X-Admin-Key">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_jpa" edge="1" parent="1" source="jpa_repos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=11;fontColor=#0D47A1;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="db" value="JPA / Hibernate">
+          <mxGeometry relative="1" x="-0.2353" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="990" y="420" />
+              <mxPoint x="1180" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#90A4AE;fontSize=12;fontStyle=1;fontColor=#37474F;startSize=30;rounded=1;" value="Легенда" vertex="1">
+          <mxGeometry height="120" width="720" x="40" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_android" parent="legend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=10;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Android&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_server" parent="legend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontSize=10;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Spring Boot&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_wpf" parent="legend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;fontSize=10;gradientColor=#ffa500;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;WPF Admin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_db" parent="legend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=10;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;PostgreSQL&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="550" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ctrl_cart" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=10;fontColor=#ffffff;shadow=1;" value="CartController&#xa;/cart/{userId}&#xa;/cart/add | /cart/remove" vertex="1">
+          <mxGeometry height="70" width="150" x="1490" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#1A1A2E;" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;ClipMain — Архитектура Android-приложения и сервера&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="800" x="360" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

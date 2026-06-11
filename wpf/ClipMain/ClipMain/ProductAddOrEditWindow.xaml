@@ -1,0 +1,112 @@
+﻿<Window x:Class="ClipMain.ProductAddOrEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClipMain"
+        mc:Ignorable="d"
+        Title="ProductAddOrEditWindow" Height="700" Width="1000">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Название товара:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <TextBox Grid.Row="1" x:Name="TBoxTitle" Height="30" Margin="0,0,0,15" TextWrapping="Wrap"/>
+
+        <TextBlock Grid.Row="2" Text="Цена (₽):" FontWeight="Bold" Margin="0,0,0,5"/>
+        <TextBox Grid.Row="3" x:Name="TBoxPrice" Height="30" Margin="0,0,0,15" PreviewTextInput="TBoxPrice_PreviewTextInput"/>
+
+        <TextBlock Grid.Row="4" Text="Описание:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <TextBox Grid.Row="5" x:Name="TBoxDescription" Height="80" Margin="0,0,0,15" TextWrapping="Wrap"
+                 AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+
+        <TextBlock Grid.Row="6" Text="Размеры:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <ScrollViewer Grid.Row="7" MaxHeight="150" Margin="0,0,0,15">
+            <ItemsControl x:Name="SizesItemsControl">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="0,0,0,8" Padding="8" 
+                        BorderBrush="#E0E0E0" BorderThickness="1" 
+                        CornerRadius="6">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="80"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox Grid.Column="0" 
+                                  Content="{Binding Name}"
+                                  IsChecked="{Binding IsSelected}"
+                                  FontSize="14" FontWeight="Bold"
+                                  VerticalAlignment="Center"
+                                  Margin="0,0,10,0"/>
+
+                                <StackPanel Grid.Column="2" Orientation="Horizontal"
+                                    VerticalAlignment="Center">
+                                    <TextBlock Text="Кол-во:" FontSize="12" 
+                                       VerticalAlignment="Center"
+                                       Margin="0,0,5,0"/>
+                                    <TextBox Text="{Binding Quantity}"
+                                     Width="40" Height="24"
+                                     FontSize="12"
+                                     VerticalContentAlignment="Center"
+                                     HorizontalContentAlignment="Center"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+
+        <StackPanel Grid.Row="8" Orientation="Horizontal" Margin="0,0,0,5">
+            <TextBlock Text="Фотографии:" FontWeight="Bold"/>
+            <TextBlock Text=" (Можно выбрать несколько)" Foreground="Gray" Margin="5,0,0,0"/>
+        </StackPanel>
+
+        <ListBox Grid.Row="9" x:Name="ImagesListBox" Margin="0,0,0,15" SelectionMode="Single" HorizontalContentAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Source="{Binding PreviewPath}" Width="50" Height="50"
+                               Stretch="UniformToFill" Margin="0,0,10,0"/>
+
+                        <TextBlock Grid.Column="1" Text="{Binding FileName}" VerticalAlignment="Center" TextTrimming="CharacterEllipsis"/>
+
+                        <Button Grid.Column="2" Content="❌" Width="30" Height="30" Background="Red" Foreground="White"
+                                Name="removeImageButton" Click="removeImageButton_Click" Tag="{Binding FilePath}" FontWeight="Bold"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Grid.Row="10" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="🟨 Выбрать фото" Name="browseImageButton" Click="browseImageButton_Click" Width="140" Height="35"
+                    Margin="0,0,10,0" Background="DeepSkyBlue" Foreground="White" FontWeight="Bold"/>
+
+            <Button Content="💾 Сохранить" Name="saveButton" Click="saveButton_Click" Width="120" Height="35"
+                    Margin="0,0,10,0" Background="LightGreen" Foreground="White" FontWeight="Bold" IsDefault="True"/>
+
+            <Button Content="Отмена" Name="cancelButton" Click="cancelButton_Click" Width="100" Height="35" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

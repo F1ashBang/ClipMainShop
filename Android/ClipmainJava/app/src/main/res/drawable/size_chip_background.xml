@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Выбранный размер -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#363676"/>
+            <corners android:radius="8dp"/>
+            <stroke android:width="3dp" android:color="#363676"/>
+        </shape>
+    </item>
+    <!-- Обычный размер -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <corners android:radius="8dp"/>
+            <stroke android:width="5dp" android:color="#CCCCCC"/>
+        </shape>
+    </item>
+</selector>
